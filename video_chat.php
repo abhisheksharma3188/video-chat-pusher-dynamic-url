@@ -45,10 +45,10 @@
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
     <script src="https://js.pusher.com/8.0.1/pusher.min.js"></script>
     <script>
-        var APP_CHANNEL="video-chat-pusher";
+        var APP_CHANNEL="APP_CHANNEL";
         var APP_EVENT="<?php echo $event; ?>";
-        var APP_KEY= "5ef4ff1ffb434dcb671b";
-        var APP_CLUSTER = "ap2";
+        var APP_KEY= "APP_KEY";
+        var APP_CLUSTER = "APP_CLUSTER ";
         var user_id="<?php echo $user_id; ?>";
     </script>    
     <script>
