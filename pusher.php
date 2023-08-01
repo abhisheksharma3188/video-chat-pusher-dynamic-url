@@ -1,12 +1,12 @@
 <?php
 // First, run 'composer require pusher/pusher-php-server'
 
-$APP_CHANNEL="video-chat-pusher";
+$APP_CHANNEL="APP_CHANNEL";
 $APP_EVENT=$_POST['event'];
-$APP_ID = "1643245";
-$APP_KEY= "5ef4ff1ffb434dcb671b";
-$APP_SECRET = "fc74e3343e89af1c81d4";
-$APP_CLUSTER = "ap2";
+$APP_ID = "APP_ID";
+$APP_KEY= "APP_KEY";
+$APP_SECRET = "APP_SECRET";
+$APP_CLUSTER = "APP_CLUSTER";
 $message=$_POST['message'];
 
 require __DIR__ . '/vendor/autoload.php';
